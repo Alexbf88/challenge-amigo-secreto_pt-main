@@ -19,6 +19,4 @@ function sortearAmigo()
     tamanhoLista = amigos.length;
     sorteado = amigos[Math.floor(Math.random()*tamanhoLista)];
     alert(sorteado);
-
-    
 }
