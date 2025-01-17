@@ -12,3 +12,13 @@ function adicionarAmigo(){
     lista.appendChild(amigoItem);
 } 
 
+function sortearAmigo()
+{
+    let tamanhoLista;
+    let sorteado;
+    tamanhoLista = amigos.length;
+    sorteado = amigos[Math.floor(Math.random()*tamanhoLista)];
+    alert(sorteado);
+
+    
+}
