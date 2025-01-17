@@ -27,4 +27,10 @@ function sortearAmigo()
     tamanhoLista = amigos.length;
     sorteado = amigos[Math.floor(Math.random()*tamanhoLista)];
     alert(sorteado);
+    const confirmacao = confirm("deseja reiniciar a lista?");
+    if (confirmacao) {
+        amigos=[];
+        lista=document.getElementById('listaAmigos');
+        lista.innerHTML = '';
+      }
 }
