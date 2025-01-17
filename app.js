@@ -12,24 +12,3 @@ function adicionarAmigo(){
     lista.appendChild(amigoItem);
 } 
 
-// function geraLista(){
-//     lista=document.getElementById('listaAmigos');
-//     // lista.innerHTML = amigos;
-    
-// }
-
-
-
-
-
-
-
-// //    const frutas = ['Maçã', 'Banana', 'Uva'];
-// const listaFrutas = document.getElementById('minhaLista');
-
-// // Iterando sobre o array e criando elementos li
-// frutas.forEach(fruta => {
-//   const li = document.createElement('li');
-//   li.textContent = fruta;
-//   listaFrutas.appendChild(li);
-// });
