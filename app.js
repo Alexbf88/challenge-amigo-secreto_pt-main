@@ -3,13 +3,21 @@ let amigos = [];
 let lista;
 
 function adicionarAmigo(){
-    amigos.push(document.querySelector('input').value);
-    document.querySelector('input').value = '';
-
-    lista=document.getElementById('listaAmigos');
-    let amigoItem = document.createElement('li');
-    amigoItem.textContent = amigos[amigos.length - 1];
-    lista.appendChild(amigoItem);
+    let validaCampo;
+    validaCampo = document.querySelector('input').value;
+      if  (validaCampo ==''){
+        alert("preencha um nome antes de adicionar");
+    }
+      else {
+        
+        amigos.push(document.querySelector('input').value);
+        document.querySelector('input').value = '';
+    
+        lista=document.getElementById('listaAmigos');
+        let amigoItem = document.createElement('li');
+        amigoItem.textContent = amigos[amigos.length - 1];
+        lista.appendChild(amigoItem);
+}
 } 
 
 function sortearAmigo()
