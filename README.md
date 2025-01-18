@@ -28,19 +28,5 @@ JavaScript: Lógica do sorteio e manipulação da DOM.<br>
 Personalização: CSS<br>
 * A estrutura em HTML e o código CSS foram fornecidos pelo curso
 
-<h2>Amostra do código utilizado para interagir com o usuário:</h2>
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Sorteador de Amigos</title>
-</head>
-<body>
-    <input type="text" id="nomeAmigo" placeholder="Digite o nome do amigo">
-    <button onclick="adicionarAmigo()">Adicionar</button>
-    <button onclick="sortearAmigo()">Sortear</button>
-    <ul id="listaAmigos"></ul>
-
-</body>
-</html>
 
 
